@@ -1,8 +1,7 @@
 ### 开发工具
 * 推荐使用VSCode来进行前端项目的开发。
 
-* VSCode
-* 推荐插件列表
+* VSCode推荐插件列表
 
 * Auto Close Tag
 * Auto Rename Tag
@@ -88,10 +87,7 @@
     git fetch origin xxx	拉取远端代码但不合并	推荐
     git merge origin/xxx	合并代码到当前分支	推荐
     git state -s	查看有变动的文件列表	
-    git branch	
-    查看所有本地分支
-
-
+    git branch	查看所有本地分支
     git branch -a	查看本地和远程分支	
     git branch -d xxx	删除本地xxx分支	必须不在xxx分支上才能删除
     git checkout xxx	切换到xxx分支上	xxx分支必须存在
@@ -102,6 +98,15 @@
     git push	将本地分支上的代码推送到远端分支上	
     git log	查看当前分支上的commit记录	
     git reset --hard xxxx	回复本地版本到xxxx（git log查到的commit记录hash号）
+
+
+    补充：
+    git log    查看当前分支上的commit记录，git log后按q退出
+    git reflog      查看命令历史，以便确定要回到未来的哪个版本
+    HEAD       表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^
+    git reset --hard HEAD^   回退到上一个版本
+    git checkout -- .\src\page\product\index.jsx     撤销工作区修改
+    git reset HEAD .\src\page\product\index.jsx      撤销暂存区修改
 ```
 
 ### 前端基础文档
