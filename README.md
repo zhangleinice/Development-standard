@@ -111,6 +111,12 @@
     git branch -D feature-vulcan      -D强制删除
     如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
 
+    git checkout -b dbg_lichen_star
+    git push origin dbg_lichen_star:dbg_lichen_star
+    把新建的本地分支push到远程服务器，远程分支与本地分支同名（当然可以随意起名）：
+    git push origin --delete dbg_lichen_star
+    删除远程分支
+
 
     分支策略
     master分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；
