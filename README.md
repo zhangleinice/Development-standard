@@ -108,6 +108,14 @@
     git checkout -- .\src\page\product\index.jsx     撤销工作区修改
     git reset HEAD .\src\page\product\index.jsx      撤销暂存区修改
     git merge dev          合并指定分支到当前分支
+    git branch -D feature-vulcan      -D强制删除
+    如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
+
+
+    分支策略
+    master分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；
+    干活都在dev分支上，也就是说，dev分支是不稳定的，到某个时候，比如1.0版本发布时，再把dev分支合并到master上，在master分支发布1.0版本；
+    每个人都在dev分支上干活，每个人都有自己的分支，时不时地往dev分支上合并就可以了。
 ```
 
 ### 前端基础文档
@@ -125,3 +133,5 @@
 * Ant Design 19大期间专用镜像
 * ECharts
 * iconfont
+
+
