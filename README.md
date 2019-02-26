@@ -107,6 +107,7 @@
     git reset --hard HEAD^   回退到上一个版本
     git checkout -- .\src\page\product\index.jsx     撤销工作区修改
     git reset HEAD .\src\page\product\index.jsx      撤销暂存区修改
+    git merge dev          合并指定分支到当前分支
 ```
 
 ### 前端基础文档
