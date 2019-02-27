@@ -140,4 +140,21 @@
 * ECharts
 * iconfont
 
+### Linux命令
+```js
+    tar                   //用来压缩和解压文件。tar本身不具有压缩功能。他是调用压缩功能实现的 
+    tar -czvf test.tar.gz a.c   //压缩 a.c文件为test.tar.gz
+    tar -xzvf test.tar.gz       //解压文件
+
+    rm                  //除一个文件或者目录。
+    rm x.txt            //删除文件
+    rm -r dist          //删除文件夹
+    rm  -r  *           //删除当前目录下的所有文件     
+
+
+    scp    //scp是 secure copy的缩写, scp是linux系统下基于ssh登陆进行安全的远程文件拷贝命令。
+    scp dist  root@10.2.101.123:~   //拷贝到远程服务器     
+    ssh root@10.2.101.123           //ssh方式登陆远程服务器
+```
+
 
