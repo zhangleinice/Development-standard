@@ -149,7 +149,8 @@
     rm                  //除一个文件或者目录。
     rm x.txt            //删除文件
     rm -r dist          //删除文件夹
-    rm  -r  *           //删除当前目录下的所有文件     
+    rm  -r  *           //删除当前目录下的所有文件    
+    rm -rf  dist             //删除文件夹，不逐一确认 
 
 
     scp    //scp是 secure copy的缩写, scp是linux系统下基于ssh登陆进行安全的远程文件拷贝命令。
