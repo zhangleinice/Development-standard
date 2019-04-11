@@ -118,6 +118,13 @@
     删除远程分支
 
 
+    git stash    储存到本地
+    git stash list    查看储藏的东西
+    git stash apply   将储存的东西拿出来，不删除储存的内容      如果不指定，则取出最近的一次
+    git stash pop   将储存的东西拿出来，删除储存的内容
+    git stash apply stash@{2}    将指定的内容，取出来
+
+
     分支策略
     master分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；
     干活都在dev分支上，也就是说，dev分支是不稳定的，到某个时候，比如1.0版本发布时，再把dev分支合并到master上，在master分支发布1.0版本；
