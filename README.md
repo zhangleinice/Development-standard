@@ -162,7 +162,10 @@
 
     scp    //scp是 secure copy的缩写, scp是linux系统下基于ssh登陆进行安全的远程文件拷贝命令。
     scp dist  root@10.2.101.123:~   //拷贝到远程服务器     
-    ssh root@10.2.101.123           //ssh方式登陆远程服务器
+    ssh root@10.2.101.123           //ssh方式登陆远程服务器·
+
+    mkdir test     //创建文件夹
+    touch index.html   //创建文件
 ```
 
 
