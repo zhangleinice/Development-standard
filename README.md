@@ -78,7 +78,7 @@
 }
 ```
 
-### 前端GIT规范
+### GIT规范
 
 * GIT的常用操作
 ```js
@@ -144,22 +144,6 @@
     test: 测试用例修改
     chore: 其他修改, 比如构建流程, 依赖管理.
 ```
-
-### 前端基础文档
-
-* MDN Web 技术文档
-* ECMAScript 6入门
-* React 中文文档 css88
-* React 中文文档 doc-china
-* Redux 中文文档
-* Redux 使用教程
-* React Router 使用教程
-* less 中文文档
-* Vue
-* Ant Design
-* Ant Design 19大期间专用镜像
-* ECharts
-* iconfont
 
 ### Linux命令
 ```js
