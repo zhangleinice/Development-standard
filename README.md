@@ -123,6 +123,8 @@
     git stash pop   将储存的东西拿出来，删除储存的内容
     git stash apply stash@{2}    将指定的内容，取出来
 
+
+    git push origin 分支名 --force   git强制提交本地分支覆盖远程分支
 ```
 
 * 分支管理
