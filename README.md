@@ -16,6 +16,8 @@
 * stylelint
 * vscode-fileheader
 * vscode-icons
+* prettier
+* TSLint
 
 * 基本配置
 
